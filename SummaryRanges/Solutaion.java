@@ -63,7 +63,7 @@ public class Solutaion {
     }
     public static void main(String[] args) {
         Solutaion sol=new Solutaion();
-        int [] arr={0,2,3,4,6,8,9,9};
+        int [] arr={0,2,3,4,6,8,9};
         
         System.out.println(sol.summaryRanges(arr).toString());
     }
