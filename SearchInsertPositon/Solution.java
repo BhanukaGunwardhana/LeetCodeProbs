@@ -9,6 +9,9 @@ public class Solution {
             if(nums[i]==target){
                 return i;
             }
+            if(dif<0){
+                return 0; 
+            }
             else{
                 int localdif=target-nums[i];
                 if(dif>=localdif && localdif>0){
@@ -17,7 +20,7 @@ public class Solution {
                 }
             }
         }
-        return hold+dif;
+        return hold+1;
 
     }
     public static void main(String[] args) {
