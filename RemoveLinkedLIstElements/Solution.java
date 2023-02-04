@@ -1,6 +1,6 @@
 package Java_Advanced.LeetCode.RemoveLinkedLIstElements;
 
-import Java_Advanced.DataStructurenAlgorithms.LinkedList.Node;
+
 
 class ListNode {
          int val;

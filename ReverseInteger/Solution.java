@@ -18,7 +18,7 @@ public class Solution {
         int size=stack.size();
         int hold;
         double sum=0;
-        StringBuilder sb=new StringBuilder();
+        
         while(!stack.isEmpty()){
             hold=Integer.valueOf(String.valueOf(stack.pop())); 
             var check=hold*(Math.pow(10, size-1));
